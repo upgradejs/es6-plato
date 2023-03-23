@@ -91,6 +91,12 @@
     <div class="col-md-12"><div id='chart_lint' class='chart js-chart'></div></div>
   </div>
   <% } %>
+  <% if (options.flags.eslint) { %>
+  <div class="row">
+    <h2 class="col-md-12">Churn vs Complexity</h2>
+    <div class="col-md-12"><div class='chart ' id="chart_churn-complexity"></div></div>
+  </div>
+  <% } %>
 </div>
 
 <div class="container">
@@ -106,6 +112,9 @@
         <button type="button" id="button-bugs" class="btn btn-default bugs">est errors</button>
         <% if (options.flags.eslint) { %>
         <button type="button" id="button-lint" class="btn btn-default lint">lint errors</button>
+        <% } %>
+        <% if (options.flags.churn) { %>
+        <button type="button" id="button-churn" class="btn btn-default lint">churn</button>
         <% } %>
       </div>
     </div>
@@ -127,6 +136,7 @@
               data-sloc="<%= item.complexity.aggregate.complexity.sloc.physical %>"
               data-bugs="<%= item.complexity.aggregate.complexity.halstead.bugs.toFixed(2) %>"
               data-complexity="<%= item.complexity.aggregate.complexity.cyclomatic%>"
+              data-churn="<%= item.churn && item.churn %>"
           ></span>
         </div>
       </li>
@@ -145,6 +155,7 @@
 <script type="text/javascript" src="assets/scripts/bundles/core-bundle.js"></script>
 <script type="text/javascript" src="report.js"></script>
 <script type="text/javascript" src="report.history.js"></script>
+<script type="text/javascript" src="assets/scripts/vendor/highcharts.js"></script>
 <script type="text/javascript" src="assets/scripts/plato-overview.js"></script>
 <script type="text/javascript" src="assets/scripts/plato-sortable-file-list.js"></script>
 </body>
