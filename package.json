@@ -39,7 +39,7 @@
     "fs-extra": "8.1.0",
     "globby": "10.0.1",
     "lodash": "^4.17.19",
-    "plugin-preloader": "^0.1.2",
+    "plugin-preloader": "^0.2.0",
     "posix-getopt": "^1.2.0",
     "typhonjs-escomplex": "^0.1.0",
     "typhonjs-escomplex-module": "^0.1.0",
