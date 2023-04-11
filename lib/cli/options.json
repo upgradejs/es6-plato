@@ -61,5 +61,10 @@
     "long": "babelConfig",
     "desc": "Specify a Babel configuration file for project parsing",
     "type": "String"
+  },
+  "g": {
+    "long": "gitPath",
+    "desc": "Specify a path to the folder containing .git folder",
+    "type": "String"
   }
 }

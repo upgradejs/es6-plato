@@ -48,7 +48,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="reportBlock maintainabilityList">
                 <h2 class="reportTitle">Worst Maintainability Scores</h2>
                 <ul class="list-unstyled">
@@ -61,7 +61,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="reportBlock locList">
                 <h2 class="reportTitle">Largest Files</h2>
                 <ul class="list-unstyled">
@@ -75,7 +75,7 @@
             </div>
         </div>
         <% if (report.summary.total.eslint) { %>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="reportBlock lintList">
                 <h2 class="reportTitle">Lint Warnings</h2>
                 <ul class="list-unstyled">
@@ -89,6 +89,22 @@
             </div>
         </div>
         <% } %>
+
+      <% if (report.summary.total.churn) { %>
+        <div class="col-md-3">
+          <div class="reportBlock locList">
+            <h2 class="reportTitle">Most Changing Files</h2>
+            <ul class="list-unstyled">
+              <% _.each(_.take(_.sortBy(report.reports, function (report) { return -1 * report.churn }), 5), function(report, i) { %>
+              <li>
+                <strong><%= report.churn %> changes</strong>
+                <small><%= report.info.fileShort %></small>
+              </li>
+              <% }); %>
+            </ul>
+          </div>
+        </div>
+      <% } %>
     </div>
 </div>
 

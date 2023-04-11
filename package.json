@@ -37,6 +37,7 @@
     "@babel/core": "^7.21.3",
     "eslint": "^8.37.0",
     "fs-extra": "8.1.0",
+    "git-churn-js": "^0.1.1",
     "globby": "10.0.1",
     "lodash": "^4.17.19",
     "plugin-preloader": "^0.2.0",
