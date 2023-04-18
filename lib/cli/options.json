@@ -66,5 +66,15 @@
     "long": "gitPath",
     "desc": "Specify a path to the folder containing .git folder",
     "type": "String"
+  },
+  "T": {
+    "long": "targetNode",
+    "desc": "Specify a target Node version to check dependencies against",
+    "type": "String"
+  },
+  "p": {
+    "long": "projectRoot",
+    "desc": "Specify a path to the project root folder",
+    "type": "String"
   }
 }
