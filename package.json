@@ -41,7 +41,7 @@
     "git-churn-js": "^0.1.1",
     "globby": "10.0.1",
     "lodash": "^4.17.19",
-    "npm-audit-html": "^1.5.0",
+    "npm-audit-html": "^2.0.0-beta.2",
     "npm-outdated-html": "^2.0.0",
     "plugin-preloader": "^0.2.0",
     "posix-getopt": "^1.2.0",
