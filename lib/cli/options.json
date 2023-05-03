@@ -56,5 +56,10 @@
     "long": "eslint",
     "desc": "Specify a eslintrc file for ESLint linting",
     "type": "String"
+  },
+  "g": {
+    "long": "gitPath",
+    "desc": "Specify a path to the folder containing .git folder",
+    "type": "String"
   }
 }
