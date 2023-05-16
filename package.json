@@ -1,19 +1,25 @@
 {
-  "name": "es6-plato",
-  "description": "JavaScript source analysis and visualizer",
+  "name": "upjs-plato",
+  "description": "JavaScript and TypeScript source analysis and visualizer",
   "version": "2.0.0",
-  "homepage": "https://github.com/the-simian/es6-plato",
-  "author": {
-    "name": "Jessse Harlin",
-    "email": "harlinjesse@gmail.com",
-    "url": "http://jesseharlin.net/"
-  },
+  "homepage": "https://github.com/upgradejs/upjs-plato",
+  "authors": [
+    {
+      "name": "Jessse Harlin",
+      "email": "harlinjesse@gmail.com",
+      "url": "http://jesseharlin.net/"
+    },
+    {
+      "name": "Kostiantyn Popovych",
+      "email": "kostiantyn.popovych.exp@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/the-simian/es6-plato"
+    "url": "https://github.com/upgradejs/upjs-plato"
   },
   "bugs": {
-    "url": "https://github.com/the-simian/es6-plato/issues"
+    "url": "https://github.com/upgradejs/upjs-plato/issues"
   },
   "bin": "bin/plato",
   "license": "MIT",
@@ -31,7 +37,11 @@
     "complexity",
     "report",
     "analysis",
-    "analyze"
+    "analyze",
+    "metrics",
+    "javascript",
+    "typescript",
+    "churn"
   ],
   "dependencies": {
     "@babel/core": "^7.21.3",

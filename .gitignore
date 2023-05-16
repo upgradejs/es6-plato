@@ -7,5 +7,7 @@ tmp/
 reports/
 report
 external-config.js
+b-external-config.js
+e-external-config.js
 # Reports templates are generated dynamically so they should not be added to the repository at the moment
 lib/templates/dependencies-*.html
