@@ -1,9 +1,11 @@
-# es6-plato
+# es6-plato-upgrade
 
 Visualize JavaScript source complexity with plato.
 Based on the older es5 plato, this is a port to `es6` and `eslint`
 
-#The Report
+This project is a fork of [es6-plato](https://github.com/the-simian/es6-plato)
+
+# The Report
 ![dank-es6-nugs](https://cloud.githubusercontent.com/assets/954596/18904556/3a81efea-8524-11e6-8588-ad8f5a51b001.PNG)
 
 ## Start in 3 steps.
