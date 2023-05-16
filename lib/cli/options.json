@@ -53,8 +53,13 @@
     "type": "Boolean"
   },
   "e": {
-    "long": "eslint",
-    "desc": "Specify a eslintrc file for ESLint linting",
+    "long": "eslintConfig",
+    "desc": "Specify a ESLint configuration file for ESLint linting",
+    "type": "String"
+  },
+  "b": {
+    "long": "babelConfig",
+    "desc": "Specify a Babel configuration file for project parsing",
     "type": "String"
   },
   "g": {
