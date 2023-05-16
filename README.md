@@ -1,4 +1,4 @@
-# es6-plato-upgrade
+# upjs-plato
 
 Visualize JavaScript source complexity with plato.
 Based on the older es5 plato, this is a port to `es6` and `eslint`
