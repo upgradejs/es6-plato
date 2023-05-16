@@ -1,8 +1,8 @@
 {
   "name": "upjs-plato",
   "description": "JavaScript and TypeScript source analysis and visualizer",
-  "version": "1.3.0",
-  "homepage": "https://github.com/upgradejs/es6-plato",
+  "version": "1.3.1",
+  "homepage": "https://github.com/upgradejs/upjs-plato",
   "authors": [
     {
       "name": "Jessse Harlin",
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/upgradejs/es6-plato"
+    "url": "https://github.com/upgradejs/upjs-plato"
   },
   "bugs": {
-    "url": "https://github.com/upgradejs/es6-plato/issues"
+    "url": "https://github.com/upgradejs/upjs-plato/issues"
   },
   "bin": "bin/plato",
   "license": "MIT",
