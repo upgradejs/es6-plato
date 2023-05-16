@@ -1836,10 +1836,10 @@
   "resolved" "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   "version" "2.3.1"
 
-"plugin-preloader@^0.2.0":
-  "integrity" "sha512-tbbhKKFUU/qA2uKxLMBPT4PwFqB9lsi5A1xt8R8pi3lqImlnRSxZo62qO0T3qdYGGOKVkCDAIgjjbw6q3YrSAw=="
-  "resolved" "https://registry.npmjs.org/plugin-preloader/-/plugin-preloader-0.2.0.tgz"
-  "version" "0.2.0"
+"plugin-preloader@^1.0.0":
+  "integrity" "sha512-7GdpQ2xMpWXDS0g9wgrrLSyBvsk9DbrEv5OXOATH4tIUAdeY0qFJVVoF/FmFfoFsNt9iY4ek0OGGgGuSLcAlVA=="
+  "resolved" "https://registry.npmjs.org/plugin-preloader/-/plugin-preloader-1.0.0.tgz"
+  "version" "1.0.0"
 
 "posix-getopt@^1.2.0":
   "integrity" "sha512-BbGTiH8MOWAuc6h5yITkSn9k3HP4+QOCV9t6I5F62OrH7zqTHRo08QNsgELRreTBxcvRhbSpMoUnAx77Dz4yUA=="

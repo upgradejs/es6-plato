@@ -53,7 +53,7 @@
     "lodash": "^4.17.19",
     "npm-audit-html": "^2.0.0-beta.2",
     "npm-outdated-html": "^2.0.0",
-    "plugin-preloader": "^0.2.0",
+    "plugin-preloader": "^1.0.0",
     "posix-getopt": "^1.2.0",
     "typhonjs-escomplex": "^0.1.0",
     "typhonjs-escomplex-module": "^0.1.0",
