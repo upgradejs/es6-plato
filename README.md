@@ -8,7 +8,17 @@ This project is a fork of [es6-plato](https://github.com/the-simian/es6-plato)
 # The Report
 ![dank-es6-nugs](https://cloud.githubusercontent.com/assets/954596/18904556/3a81efea-8524-11e6-8588-ad8f5a51b001.PNG)
 
-## Start in 3 steps.
+## Run with NPX
+
+```bash
+npx upjs-plato -r -d ./report src
+```
+
+This command will download upjs-plato in a temp directory and run the report inspecting the files inside the `src` directory.
+
+> NOTE: if you have a `.browserslistrc` file in the directory and `upjs-plato` fails to run with polyfill errors, temporarily delete the `.browserslistrc` file or move the configuration inside the `package.json` file with a `browserslist` key https://github.com/browserslist/browserslist.
+
+## Add to a project in 3 steps
 
 1. Install.
    `npm install --save-dev es6-plato`
