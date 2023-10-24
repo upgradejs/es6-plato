@@ -21,22 +21,34 @@ This command will download upjs-plato in a temp directory and run the report ins
 ## Add to a project in 3 steps
 
 1. Install.
-   `npm install --save-dev es6-plato`
+```bash
+npm install --save-dev upjs-plato
+
+# or
+
+yarn add upjs-plato --dev
+```
 
 2. Add.
 
-```
+```json
 "scripts" : {
-    "complexity-report": "./node_modules/.bin/es6-plato -r -d ./report src",
+    "complexity-report": "./node_modules/.bin/upjs-plato -r -d ./report src",
 }
 ```
 
 3. Run.
-   `npm run complexity-report`
+```bash
+npm run complexity-report
+
+# or
+
+yarn complexity-report
+```
 
 ## Installation
 
-Install the module with: `npm install --save-dev es6-plato`
+Install the module with: `npm install --save-dev upjs-plato` or `yarn add upjs-plato --dev`
 
 ## Usage
 
@@ -80,7 +92,7 @@ plato.inspect(src, outputDir, platoArgs, callback);
 
 ```js
 let gulp = require("gulp");
-let plato = require("es6-plato");
+let plato = require("upjs-plato");
 
 let src = "./scripts/**/*.js";
 let outputDir = "./artifacts/plato";
@@ -126,7 +138,7 @@ gulp.task("analysis", analysis);
 ### From the commandline
 
 ```sh
-Usage : es6-plato [options] -d <output_dir> <input files>
+Usage : upjs-plato [options] -d <output_dir> <input files>
   -h, --help
       Display this help text.
   -q, --quiet
@@ -156,7 +168,7 @@ Usage : es6-plato [options] -d <output_dir> <input files>
 **Example**
 
 ```shell
-es6-plato -r -d report src
+upjs-plato -r -d report src
 ```
 
 > Note for Windows Users:
