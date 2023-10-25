@@ -156,7 +156,7 @@ Usage : upjs-plato [options] -d <output_dir> <input files>
   -t, --title : String
       Title of the report
   -T, --targetNode : Number
-      Target Node version for the depngn compatibility report
+      Target Node version for the depngn compatibility report. the -p options is required for depngn to run
   -D, --date : String
       Time to use as the report date (seconds, > 9999999999 assumed to be ms)
   -n, --noempty
@@ -166,13 +166,19 @@ Usage : upjs-plato [options] -d <output_dir> <input files>
   -b, --babelConfig : String
       Specify a Babel configuration file for project parsing
   -p, --projectRoot : String
-      Root directory of the project to analyze
+      Root directory of the project to analyze. Needed to run audit/outdated/depngn analysis
 ```
 
-**Example**
+**Examples**
 
 ```shell
 upjs-plato -r -d report src
+# analyze the `src` dir and generates the report in the `report` dir
+```
+
+```shell
+upjs-plato -r -p ./ -T 20 -r report src
+# analyze the `src` dir, also run audit, outdated, and depng with node 20 as the target, store report in the `report` dir
 ```
 
 > Note for Windows Users:
