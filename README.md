@@ -133,6 +133,8 @@ Usage : es6-plato [options] -d <output_dir> <input files>
       Specify a jshintrc file for JSHint linting
   -t, --title : String
       Title of the report
+  -T, --targetNode : Number
+      Target Node version for the depngn compatibility report
   -D, --date : String
       Time to use as the report date (seconds, > 9999999999 assumed to be ms)
   -n, --noempty
@@ -141,6 +143,8 @@ Usage : es6-plato [options] -d <output_dir> <input files>
       Specify a ESLint configuration file for ESLint linting
   -b, --babelConfig : String
       Specify a Babel configuration file for project parsing
+  -p, --projectRoot : String
+      Root directory of the project to analyze
 ```
 
 **Example**
