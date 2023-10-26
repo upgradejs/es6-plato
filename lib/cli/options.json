@@ -69,12 +69,12 @@
   },
   "T": {
     "long": "targetNode",
-    "desc": "Specify a target Node version to check dependencies against",
+    "desc": "Target Node version for the depngn compatibility report. The -p options is required for depngn to run.",
     "type": "String"
   },
   "p": {
     "long": "projectRoot",
-    "desc": "Specify a path to the project root folder",
+    "desc": "Root directory of the project to analyze. Needed to run audit/outdated/depngn analysis. Must contain a \"lock\" file with the project's dependencies.",
     "type": "String"
   }
 }
